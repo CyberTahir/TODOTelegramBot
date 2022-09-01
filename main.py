@@ -29,6 +29,9 @@ def get_text(date):
     return text
 
 
+def get_date(date):
+    pass
+
 @bot.message_handler(commands=["help"])
 def help_fn(message):
     help_txt = """/help - напечатать справку по программе.
